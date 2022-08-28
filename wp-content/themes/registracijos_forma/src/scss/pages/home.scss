@@ -1,0 +1,166 @@
+.page-home {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    .hero-section {
+        background: #EEEEEE;
+        padding: 64px 0;
+
+        .image-row {
+            background-image: url('../img/hero-image.jpg');
+            height: 262px;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .content-section {
+
+        .content-row {
+            padding: 34px 0;
+
+            .title-row {
+                margin-bottom: 48px;
+
+                @media only screen and (max-width: 575px) {
+                    padding-right: 15px;
+                    padding-left: 15px;
+                }
+                
+                h4 {
+                    font-weight: 700;
+                    font-size: 32px;
+                }
+            }
+
+            .tables-row {
+
+                .col {
+
+                    .inner-col {
+
+                        .form-title {
+                            margin: 0 0 32px 0;
+                            padding: 30px;
+                            min-height: 140px;
+                            height: 100%;
+
+                            h3 {
+                                font-size: 32px;
+                                color: white;
+                                margin: 0;
+                            }
+                        }
+
+                        .form-contact {
+                            margin: 0;
+
+                            .success-message {
+                                margin-bottom: 32px;
+                                font-size: 18px;
+                                font-weight: 500;
+                                color: green;
+                            }
+
+                            form#contact-form {
+                                width: 100%;
+
+                                .form-section {
+                                    width: 100%;
+                                    margin-bottom: 24px;
+
+                                    label {
+                                        margin-bottom: 8px;
+                                        color: #000;
+                                        width: 100%;
+                                        font-size: 14px;
+                                    }
+
+                                    input {
+                                        width: 100%;
+                                        font-size: 14px;
+                                        height: 48px;
+                                        background: #EEEEEE;
+                                        border-radius: 4.76974px;
+                                        border: none;
+                                        padding: 16px 17px 16px 18px;
+                                    }
+
+                                    textarea {
+                                        background: #EEEEEE;
+                                        border-radius: 4.76974px;
+                                        border: none;
+                                        padding: 16px 17px 16px 18px;
+                                        resize: none;
+                                    }
+                                }
+
+                                #contact-form-submit {
+                                    background: #FA0000;
+                                    width: 100%;
+                                    border: none;
+                                    border-radius: 10px;
+                                    margin-top: 8px;
+                                    padding: 14px 24px;
+                                    height: 44px;
+                                    color: white;
+                                    font-size: 16px;
+                                    transition: all .3s;
+
+                                    &:hover {
+                                        background: #d82c2c;
+                                    }
+                                }
+                            }
+
+                            #validation-messages-container {
+                                margin-top: 32px;
+                                color: red;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+
+                .col-car {
+                    padding-left: 0;
+
+                    @media only screen and (max-width: 991px) {
+                        padding-right: 0;
+                        margin-bottom: 80px;
+                    }
+
+                    @media only screen and (max-width: 575px) {
+                        padding-right: 15px;
+                        padding-left: 15px;
+                    }
+
+                    .form-title {
+                        background: #F93131;
+                    }
+                }
+
+                .col-tyres {
+                    padding-right: 0;
+
+                    @media only screen and (max-width: 991px) {
+                        padding-left: 0;
+                    }
+
+                    @media only screen and (max-width: 575px) {
+                        padding-right: 15px;
+                        padding-left: 15px;
+                    }
+
+                    .form-title {
+                        background: #6E757C;
+                    }
+                }
+            }
+        }
+    }
+}  
